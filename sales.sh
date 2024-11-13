@@ -10,5 +10,3 @@ Hello from shell script
 
 Hello from shell script
 
-
-Hello from shell script
