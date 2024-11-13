@@ -7,3 +7,6 @@ aws ec2 describe-instances >> ec2-instances
 aws vpc --list
 
 Hello from shell script
+
+Hello from shell script
+
