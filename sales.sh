@@ -1,4 +1,4 @@
-#!/bin/bash
+000#!/bin/bash
 
 # this is the sample script to practice
 
@@ -10,3 +10,4 @@ Hello from shell script
 
 Hello from shell script
 
+hi from python
