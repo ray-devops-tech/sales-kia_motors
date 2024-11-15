@@ -4,6 +4,7 @@ resource "aws_vpc" "a-vpc" {
    tags = {
       Name = "public-subnet"
       Env = "dev"
+      application = "sales"
    }
 }
 
