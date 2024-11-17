@@ -25,8 +25,23 @@ resource "aws_subnet" "pub-sn-1" {
       Name = "dev-public-sn-1"
 
    }
+}
+
+# change update for git rebase
+
+resource "aws_subnet" "pvt-sn-1" {
+  vpc_id = aws_vpc.a-vpc.id
+  cidr_block = "10.0.2.0/24"
+  availability_zone = "us-east-1b"
+
+  tags = {
+    Name = "dev-pvt-sn-1"
+
+  }
 
 
+
+}
 
 
 
