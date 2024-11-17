@@ -9,3 +9,7 @@ resource "aws_vpc" "a-vpc" {
 }
 }
 
+resource "aws_eip"" "eip-1" {
+  vpc = aws_vpc.a-vpc.id
+
+  }
