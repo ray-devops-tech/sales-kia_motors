@@ -10,6 +10,15 @@ resource "aws_vpc" "a-vpc" {
 }
 
 <<<<<<< HEAD
+resource "aws_internet_gateway" "igw_1" {
+   vpc_id = aws_vpc.a-vpc.id
+   name = "igw"
+
+
+
+}
+=======
+<<<<<<< HEAD
 resource "aws_eip"" "eip-1" {
   vpc = aws_vpc.a-vpc.id
 
@@ -47,3 +56,4 @@ resource "aws_subnet" "pvt-sn-1" {
 
 } 
 >>>>>>> sales-kia/feature1/dev
+>>>>>>> sales-kia/dev
